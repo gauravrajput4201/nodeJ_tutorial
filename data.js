@@ -1,0 +1,48 @@
+const jsonData = [
+  {
+    name: "Wing Richmond",
+    phone: "(315) 294-3773",
+    email: "amet.dapibus@outlook.ca",
+    postalZip: "M0W 3PV",
+    region: "Lombardia",
+    country: "Colombia",
+    address: "935-7593 Aliquam Road",
+  },
+  {
+    name: "Jasmine Castillo",
+    phone: "1-884-661-5657",
+    email: "tristique@icloud.net",
+    postalZip: "621777",
+    region: "Rheinland-Pfalz",
+    country: "Philippines",
+    address: "Ap #496-3002 Eget, Av.",
+  },
+  {
+    name: "Ian Copeland",
+    phone: "1-623-107-3824",
+    email: "volutpat.nulla.facilisis@protonmail.com",
+    postalZip: "454757",
+    region: "Munster",
+    country: "Chile",
+    address: "961 Convallis Av.",
+  },
+  {
+    name: "Malachi Johns",
+    phone: "(783) 983-2290",
+    email: "amet.risus.donec@google.ca",
+    postalZip: "338215",
+    region: "Gävleborgs län",
+    country: "Colombia",
+    address: "844-2881 Vel, Road",
+  },
+  {
+    name: "Vincent Castillo",
+    phone: "(705) 686-6476",
+    email: "magna@google.edu",
+    postalZip: "688294",
+    region: "Limón",
+    country: "Nigeria",
+    address: "Ap #610-6401 Semper. St.",
+  },
+];
+module.exports = jsonData;
