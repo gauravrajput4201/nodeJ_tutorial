@@ -1,0 +1,17 @@
+{
+  "name": "day2",
+  "version": "1.0.0",
+  "description": "a nodejs tutorial",
+  "main": "inde.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "code"
+  ],
+  "author": "gaurav",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
