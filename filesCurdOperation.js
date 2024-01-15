@@ -10,11 +10,18 @@ const filesPath = `${dirPath}/files0.txt`;
 //   console.log(file);
 // });
 // update file text
-fs.appendFile(filesPath, " this is updated file", (err) => {
-  if (!err) console.log("file is update");
-});
+// fs.appendFile(filesPath, " this is updated file", (err) => {
+//   if (!err) console.log("file is update");
+// });
+// rename file name
+// fs.rename(filesPath, `${dirPath}/fruit.txt`, (err) => {
+//   if (!err) console.log("file  name is update");
+//   console.log("sdsjb");
+// });
+// delete files
+fs.unlinkSync(`${dirPath}/fruit.txt`);
 
-// readd file text
-fs.readFile(filesPath, "utf8", (err, file) => {
-  console.log(file);
-});
+// // read file text
+// fs.readFile(filesPath, "utf8", (err, file) => {
+//   console.log(file);
+// });
